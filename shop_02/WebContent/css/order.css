@@ -1,0 +1,116 @@
+@charset "UTF-8";
+nav {
+	width: 100%;
+	height: 43px;
+	background-color: #dad1d9;
+}
+nav ul {
+	list-style-type: none;
+	line-height: 43px;
+	margin:0;
+	padding: 0;
+}
+nav li {
+	float: left;
+}
+nav a {
+	display: block;
+	width: 120px;
+	font: 15px black;
+	line-height: 43px;
+	text-align: center;
+}
+nav a:link, a:visited {
+	color:black;
+	text-decoration: none;	
+}
+nav a:hover {
+	color:#fff;	
+}
+h2 {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-weight:lighter;
+  	margin: 15px;
+  	padding: 10px 0;
+  	font-size: 20px;
+}
+td > h2 {
+	font-size: 14px;
+}
+#add {
+	width: 600px;
+	margin:0;
+	float: left;
+	color: #969494;
+	font-size: 13px;
+	line-height: 10px;
+}
+#cust {
+	margin: 0;
+	float: right;
+}
+.delete > input[type=button] {
+	width: 160px;
+	height: 30px;
+	margin: 0 50px;
+	font-size: 15px;
+	color: white;
+	background-color: #8865b7;
+	border: 1px solid #868686;
+}
+.img > a > img{
+	width: 200px;
+	height: 250px;
+	padding: 5px 30px;	
+}
+.img > img{
+	width: 200px;
+	height: 250px;
+	padding: 5px 30px;	
+}
+.top > th{
+	border-top: 1px solid #d9d4da;
+	border-bottom: 1px solid #d9d4da;
+	font-size: 15px;
+	height: 40px;
+}
+td {
+	width:220px;
+	border-bottom: 1px solid #d9d4da;
+}
+table {
+	width: 100%;
+	margin: 20px auto;
+}
+.f {
+	margin: 0 auto;
+	width: 300px;
+}
+form {
+	padding: 20px;
+	text-align: center;
+}
+.f > form > input[type="text"] {
+	width: 200px;
+	height: 25px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 20px;
+}
+.f > form > input[type="number"] {
+	width: 200px;
+	height: 25px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 20px;
+}
+.f > form > input[type="submit"] {
+	width: 214px;
+	padding: 5px;
+	margin: 10px;
+	color: white;
+	background-color: #8865b7;
+	border: 1px solid #868686;
+}

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+#top {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#top a {
+	display: block;
+	font: 12px black;
+	width: 90px;
+	line-height: 43px;
+}
+nav {
+	width: 100%;
+	height: 43px;
+	background-color: #dad1d9;
+}
+nav ul {
+	list-style-type: none;
+	line-height: 43px;
+	margin:0;
+	padding: 0;
+}
+nav li {
+	float: left;
+}
+nav a {
+	display: block;
+	width: 120px;
+	font: 17px black;
+	line-height: 43px;
+	text-align: center;
+}
+nav a:link, a:visited {
+	color:black;
+	text-decoration: none;	
+}
+nav a:hover {
+	color:#fff;	
+}
+#container h2 {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 15px;
+  	padding: 10px 0;
+  	font-size: 20px;
+}
+footer {
+	clear: left;
+}
+#add {	
+	width: 600px;
+	margin:0;
+	float: left;
+	color: #969494;
+	font-size: 13px;
+	line-height: 10px;
+}
+#cust {
+	margin: 0;
+	float: right;
+}
+#detail {
+	clear: left;
+}
+#img > img{
+
+	float: left;
+}
+#container {
+	margin: 20px 0;
+}
+#screen{
+	width: 590px;
+	height: 420px;
+	margin: 30px auto;
+}
+#main{
+	float: left;
+	width: 200px;
+	padding: 10px 40px;
+}
+input[type=number] {
+	width:192px;
+	margin: 10px 0;
+}
+input[type=button], input[type=submit] {
+	width: 97px;
+	height: 35px;
+	padding: 5px;
+	margin: 10px 0;
+	color: white;
+	background-color: #8865b7;
+	border: 1px solid #868686;
+}
+select {
+	width:200px;
+	margin: 10px 0;
+}
+#detail {
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#detail p {
+	text-align: center;
+}
