@@ -26,6 +26,7 @@ public class CartPlusController implements Controller {
 		
 		if(id==null) {
 			HttpUtil.forward(request, response, "/result/prodAdd.jsp");
+			return;
 		}
 		
 		String re = service.chkProdMax(pid, count);
